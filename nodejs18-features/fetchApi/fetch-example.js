@@ -2,7 +2,7 @@ import * as fsPromises from "fs/promises";
 import * as fs from "fs";
 import {Readable} from 'node:stream';
 
-const firstExample = async () => {
+export const firstExample = async () => {
     const res = await fetch("https://nodejs.org/api/documentation.json");
 
     if (res.ok) {
@@ -13,7 +13,7 @@ const firstExample = async () => {
 
 // response.body is stream
 
-const secondExample = async () => {
+export const secondExample = async () => {
     const res = await fetch("https://nodejs.org/api/documentation.json");
     if (res.ok) {
         const nodeJsStream = Readable.fromWeb(res.body);
