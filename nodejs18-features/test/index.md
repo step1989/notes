@@ -40,3 +40,6 @@ node --test src/test/02-stub.js
   * `.+[\.\-\_]test$` - Файлы, которые заканчиваются на '.test', '_test', '-test'
 
 Каждый тестовый файл исполняется в отдельном дочернем процессе.
+
+
+https://www.npmjs.com/package/test
