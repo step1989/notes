@@ -1,6 +1,5 @@
-import {asyncFilter, filter} from "./stream/filter"
-const main = () => {
-    console.log("test")
-};
+import {filter} from "./stream/index.js"
 
-main()
+(async () => {
+    console.log('Hi');
+})()

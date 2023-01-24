@@ -1,6 +1,7 @@
 import { parseArgs } from 'node:util';
 const options = {
     start: {
+
         type: 'string',
         short: 's',
     },
