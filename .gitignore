@@ -1,2 +1,4 @@
 .idea
 *.json
+/clinicjs/node_modules/
+/clinicjs/.clinic/
