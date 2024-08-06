@@ -6,7 +6,7 @@
 ```mermaid
 %%{init: 
 {
-  "theme": "default",
+  "theme": "forest",
   "themeVariables": {
     "nodeBorder" : "#004990",
     "mainBkg" : "#c9d7e4",
