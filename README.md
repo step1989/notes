@@ -4,11 +4,7 @@
 #### [Книги](./books/Readme.md)
 
 ```mermaid
-%%{init: 
-{
-  "theme": "dark",
-}
-}%%
+%%{init: {'theme':'forest'}}%%
 sequenceDiagram
     autonumber
     participant FE
