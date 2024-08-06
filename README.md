@@ -6,7 +6,7 @@
 ```mermaid
 %%{init: 
 {
-  "theme": "forest",
+  "theme": "dark",
 }
 }%%
 sequenceDiagram
